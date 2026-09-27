@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Datasets
+data/*
+!data/README.md
+
+# Model checkpoints
+checkpoints/*
+!checkpoints/.gitkeep
+
+*.pt
+*.pth
+*.ckpt
+
+# Experiment outputs
+results/raw/*
+results/tables/*
+results/figures/*
+experiments/*/outputs/
+experiments/*/logs/
+
+# Logs
+*.log
+
+# Secrets
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Research source files
+*.pdf

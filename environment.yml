@@ -1,0 +1,10 @@
+name: sae-nas-2
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip:
+    - torch
+    - torchvision
+    - numpy
+
